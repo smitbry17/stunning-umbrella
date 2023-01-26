@@ -1,0 +1,46 @@
+ @tailwind base;
+@tailwind components;
+@tailwind utilities;
+.root-container{
+  background: radial-gradient(#000000, #2c2c30);
+}
+.nav {
+  background-color: #2c2c30;
+  color: rgb(255, 255, 255);
+  display: flex;
+  width: 100%;
+  top: 0rem;
+  justify-content: flex-end;
+  height: 3rem;
+  text-align: center;
+  border: solid 1px white;
+  font: bold;
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.links {
+  display: flex;
+  padding: 0.1rem;
+  width: 20%;
+  justify-content: space-between;
+}
+#aboutme:hover,
+#portfolio:hover,
+#contact:hover,
+#skills:hover {
+  color: orange;
+  cursor: pointer;
+  transition: color 0.6s ease-in-out;
+}
+.imgContainer{
+  display: flex;
+  width: 50rem;
+  height: 40rem;
+}
+.img{
+  border-radius: 10px;
+}
