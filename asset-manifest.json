@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/stunning-umbrella/static/css/main.5f8abf07.css",
+    "main.js": "/stunning-umbrella/static/js/main.268026b1.js",
+    "static/media/aboutImage.JPG": "/stunning-umbrella/static/media/aboutImage.683f71a9ded680b5e9fc.JPG",
+    "index.html": "/stunning-umbrella/index.html",
+    "main.5f8abf07.css.map": "/stunning-umbrella/static/css/main.5f8abf07.css.map",
+    "main.268026b1.js.map": "/stunning-umbrella/static/js/main.268026b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f8abf07.css",
+    "static/js/main.268026b1.js"
+  ]
+}
