@@ -1,9 +1,10 @@
 import React from "react";
-import styles from "../index.module.css";
+import "../index.module.css";
 import img from "../images/aboutImage.JPG";
 
 function AboutCard() {
   return (
+    <div className='flex h-full'>
     <div className='flex bg-gray-600 bg-opacity-30 ml-64 mt-48 h-96 w-3/5 rounded-lg shadow-xl shadow-black'>
     <div className='flex justify-start pl-12  w-4/5 flex-wrap'>
         <p className='text-slate-100 text-center text-xl font-semibold leading-loose text-opacity-60'>
@@ -22,6 +23,7 @@ function AboutCard() {
         <img className='object-contain rounded-lg shadow-xl shadow-black' src={img} alt="" />
     </div>
 
+</div>
 </div>
 
   );
