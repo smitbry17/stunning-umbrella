@@ -1,29 +1,22 @@
 import Navbar from "./components/Navbar";
 import AboutCard from "./components/AboutCard";
 import Portfolio from "./components/Portfolio";
-import "./index.module.css";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
-  // const [pages] = useState([
-  //   {
-  //     name: "about me",
-  //   },
-  //   { name: "portfolio" },
-  // ]);
-
-  // const [currentPage, setCurrentPage] = useState(pages[0]);
-
   return (
-    <div className='h-full' id='App'>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<AboutCard />}/>
-      <Route path='/Portfolio' element={<Portfolio />}/>
-    </Routes>
-    </div>
-
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<AboutCard />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+        <Route path="/Skills" element={<Skills />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </>
   );
 }
 

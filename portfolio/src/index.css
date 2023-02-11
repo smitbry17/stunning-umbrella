@@ -8,12 +8,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(
+    at center center,
+    rgb(0, 0, 0),
+    rgb(23, 24, 26),
+    #2c2c30
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-:root{
-  height: 100%;
+
+@layer base {
+  Link{
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
