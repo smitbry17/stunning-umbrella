@@ -24,11 +24,10 @@ function Portfolio() {
 
       <div className=" flex bg-gray-600 bg-opacity-30 h-3/5 w-3/6 pt-16 mt-28 rounded-lg shadow-xl shadow-black items-center justify-center">
         <img
-          className="border-slate-100 border-2 z-10 w-3/4 h-3/4 rounded-lg shadow-xl shadow-black hover:bg-black mb-24 hover:bg-opacity-30 hover:cursor-pointer"
+          className="border-slate-100 border-2 w-3/4 h-3/4 rounded-lg shadow-xl shadow-black hover:bg-black mb-24 hover:cursor-pointer"
           src={img}
           alt=""
         />
-        {/* <Project project={project}/> */}
       </div>
     </div>
   );
