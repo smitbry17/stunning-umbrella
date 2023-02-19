@@ -3,7 +3,10 @@ import img from "../images/unknown.png";
 
 function Portfolio() {
   return (
+    // containing div
     <div className=" flex h-full justify-evenly items-center">
+      
+      {/* Buttons */}
       <div className="flex overflow-y-hidden overflow-y-none bg-gray-600 bg-opacity-30 ml-64 mt-28 pb-16 h-4/5 w-1/5 rounded-lg shadow-xl shadow-black">
         <ul className="w-full">
           <li
@@ -22,6 +25,7 @@ function Portfolio() {
         </ul>
       </div>
 
+{/* Image section */}
       <div className=" flex bg-gray-600 bg-opacity-30 h-3/5 w-3/6 pt-16 mt-28 rounded-lg shadow-xl shadow-black items-center justify-center">
         <img
           className="border-slate-100 border-2 w-3/4 h-3/4 rounded-lg shadow-xl shadow-black hover:bg-black mb-24 hover:cursor-pointer"
@@ -29,6 +33,7 @@ function Portfolio() {
           alt=""
         />
       </div>
+      
     </div>
   );
 }

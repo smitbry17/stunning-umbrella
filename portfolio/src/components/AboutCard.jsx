@@ -3,7 +3,6 @@ import img from "../images/aboutImage.JPG";
 import {FaGithub, FaLinkedin} from "react-icons/fa"
 
 function AboutCard() {
-  const [showText, setshowText] = useState(false)
   return (
     
     <div>
@@ -27,16 +26,15 @@ function AboutCard() {
     </div>
 
      {/* Icons */}
-     <div className='flex fixed flex-row top-[60%] left-[40%]'>
+     <div className='group flex fixed flex-col top-[57%] left-[40%]'>
+     <span className="invisible group-hover:visible text-center text-slate-100 text-lg">Github</span>
         <a className='hover:bg-slate-100 hover:bg-opacity-60 hover:rounded-full hover:z-10'href='https://github.com/smitbry17' target="_blank"rel="noopener noreferrer">
           <FaGithub size={130}/>
         </a>
       </div>
-      <div className={!showText ? "hidden" : "opacity-0 hover:opacity-100 duration-300 absolute z-10 inset-0 flex justify-center items-center text-2xl text-white font-semibold"}>
-        LinkedIn
-      </div>
-      <div className="flex fixed flex-row top-[60%] left-[30%]"> 
-      <a className='hover:bg-slate-100 hover:bg-opacity-60 hover:rounded-sm hover:z-10' onMouseEnter={() => setshowText(true) } onMouseLeave={() => setshowText(false)} href=''>
+      <div className=" group flex fixed flex-col top-[57%] left-[30%]">
+      <span className="invisible group-hover:visible text-center text-slate-100 text-lg">Linkedin</span>
+      <a className='hover:bg-slate-100 hover:bg-opacity-60 hover:rounded-xl hover:z-10' href=''>
           <FaLinkedin size={130}/>
         </a>
         </div>
