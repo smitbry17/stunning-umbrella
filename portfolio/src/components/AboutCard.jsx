@@ -34,7 +34,7 @@ function AboutCard() {
       </div>
       <div className=" group flex fixed flex-col top-[57%] left-[30%]">
       <span className="invisible group-hover:visible text-center text-slate-100 text-lg">Linkedin</span>
-      <a className='hover:bg-slate-100 hover:bg-opacity-60 hover:rounded-xl hover:z-10' href=''>
+      <a className='hover:bg-slate-100 hover:bg-opacity-60 hover:rounded-xl hover:z-10' href='https://www.linkedin.com/in/bryan-smith-286043198/' target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={130}/>
         </a>
         </div>
