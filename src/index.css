@@ -22,13 +22,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-li.selected{
+li.selected {
   box-shadow: none;
 }
 
 @layer base {
-  Link{
+  Link {
     @apply px-4;
     @apply cursor-pointer;
+  }
+}
+
+.sqlicon {
+  position: absolute;
+  left: 315px;
+  top: 315px;
+
+  -webkit-animation: myOrbit 12s linear infinite;
+}
+.htmlicon {
+  position: absolute;
+  left: 515px;
+  top: 515px;
+
+  -webkit-animation: myOrbit 12s linear infinite;
+}
+.reacticon {
+  position: absolute;
+  left: 415px;
+  top: 430px;
+
+  -webkit-animation: myOrbit 12s linear infinite;
+}
+
+@-webkit-keyframes myOrbit {
+  from {
+    -webkit-transform: rotate(0deg) translateX(300px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(300px) rotate(-360deg);
+  }
+}
+@keyframes myOrbit {
+  from {
+    transform: rotate(0deg) translateX(300px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(300px) rotate(-360deg);
   }
 }
