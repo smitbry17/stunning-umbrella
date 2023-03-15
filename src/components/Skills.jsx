@@ -8,10 +8,10 @@ function Skills(){
     return(
         <>
         {/* pause button */}
-        <div className="flex absolute top-[5rem] ml-10">
+        {/* <div className="flex absolute top-[5rem] ml-10">
         <input type="checkbox" data-animation-pause id="pausebutton" className="top-[5rem]" />
         <label for="pausebutton" className=" text-white ml-2">Click me to pause animation</label>
-        </div>
+        </div> */}
 
         {/* animation icons */}
         <div className="circulo3" data-animation>
