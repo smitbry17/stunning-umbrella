@@ -3,8 +3,8 @@ import jateImg from "../images/jate.png";
 import purrfectImg from "../images/purrfect.png";
 import boardImg from "../images/board.png";
 import "../index.css";
-import {FaGithub, FaLinkedin} from "react-icons/fa"
-import {CgWebsite} from "react-icons/cg"
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 
 function Portfolio() {
   const [selectedImg, setselectedImg] = useState("jate");
@@ -21,13 +21,13 @@ function Portfolio() {
   let galink;
   if (selectedImg === "jate") {
     link = "https://evening-gorge-15067.herokuapp.com/";
-    galink = "https://github.com/smitbry17/fantastic-garbanzo"
+    galink = "https://github.com/smitbry17/fantastic-garbanzo";
   } else if (selectedImg === "purrfect") {
     link = "https://cryptic-retreat-89387.herokuapp.com/";
-    galink = "https://github.com/talexander91/Purrfect_Pals"
+    galink = "https://github.com/talexander91/Purrfect_Pals";
   } else if (selectedImg === "board") {
     link = "https://sdanimc.github.io/shire-board-game/";
-    galink = "https://github.com/sdanimc/shire-board-game"
+    galink = "https://github.com/sdanimc/shire-board-game";
   }
   return (
     // containing div
@@ -74,9 +74,7 @@ function Portfolio() {
 
       {/* Image section */}
 
-      <a
-        className=" flex bg-gray-600 bg-opacity-30 h-3/5 w-3/6 pt-16 mt-56 rounded-lg shadow-xl shadow-black items-center justify-center"
-      >
+      <a className=" flex bg-gray-600 bg-opacity-30 h-3/5 w-3/6 pt-16 mt-56 rounded-lg shadow-xl shadow-black items-center justify-center">
         <div className="group relative">
           <img
             className="border-slate-100 border-2 w-3/4 h-3/4 rounded-lg ml-32 shadow-xl shadow-black mb-24 hover:cursor-pointer"
@@ -84,11 +82,21 @@ function Portfolio() {
             alt=""
           />
           <div className="absolute top-[0.5px] left-[0.5px] w-[74.7%] h-0 flex ml-32 flex-row justify-center items-center bg-black opacity-0 group-hover:h-[363.5px] group-hover:opacity-80 group-hover:rounded-lg group-hover:backdrop-filter group-hover:backdrop-blur-lg duration-500">
-            <a className="rounded-full bg-slate-100 hover:bg-amber-600 duration-300" href={galink} target="_blank" rel="noopener noreferrer">
-              <FaGithub size={130}/>
+            <a
+              className="rounded-full bg-slate-100 hover:bg-amber-600 duration-300"
+              href={galink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub size={130} />
             </a>
-            <a className=" ml-[200px] rounded-full bg-slate-100 hover:bg-amber-600 duration-300" href={link} target="_blank" rel="noopener noreferrer">
-              <CgWebsite size={130}/>
+            <a
+              className=" ml-[200px] rounded-full bg-slate-100 hover:bg-amber-600 duration-300"
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CgWebsite size={130} />
             </a>
           </div>
         </div>

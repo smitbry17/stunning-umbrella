@@ -9,7 +9,7 @@ function AboutCard() {
       {/* About Description */}
     <div className='flex fixed bg-gray-600 bg-opacity-30 ml-64 h-[30rem] top-64 w-3/5 rounded-lg shadow-xl shadow-black'>
         <p className='text-slate-100 fixed mx-5 text-center text-xl font-semibold leading-loose text-opacity-60 w-[55rem]'>
-        Hello, My name is Bryan Smith. I am a very self driven person and
+        Hello, My name is Bryan Smith. I am a certified Full Stack Developer from the University of California Irvine Full-Stack Development bootcamp. I am a very self driven person and
             have worked with teams and by myself in many capacities in life. At
             a very young age I started building computers and trying to give
             myself a base understanding of coding originally with linux scripts
